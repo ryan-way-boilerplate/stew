@@ -16,11 +16,6 @@ module.exports = {
 		extensions: ['.mjs', '.js', '.ts', '.svelte'],
 		mainFields: ['svelte', 'browser', 'module', 'main']
 	},
-	output: {
-		path: path.join(__dirname, '/public'),
-		filename: '[name].js',
-		chunkFilename: '[name].[id].js'
-	},
 	module: {
 			rules: [
 				{
