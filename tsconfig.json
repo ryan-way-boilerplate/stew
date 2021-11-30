@@ -1,20 +1,5 @@
 {
-  "compilerOptions": {
-    "allowJs": true,
-    "module": "commonjs",
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "noImplicitAny": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "outDir": "dist",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "paths": {
-      "*": ["node_modules/*"]
-    }
-  },
-  "include": [
-    "src/**/*"
-  ]
-}
+		"extends": "@tsconfig/svelte/tsconfig.json",
+		"include": ["src/**/*", "src/node_modules/**/*"],
+		"exclude": ["node_modules/*", "__sapper__/*", "static/*"]
+	}
