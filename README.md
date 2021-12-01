@@ -10,12 +10,26 @@
 <br/>
 
 ![NPM](https://img.shields.io/npm/l/@pixelmund/create-svelte-app?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/ryan-way-boilerplate/electron-svelte-webpack-typescript)
+![GitHub last commit](https://img.shields.io/github/last-commit/ryan-way-boilerplate/electron-svelte-webpack-typescript?style=flat-square)
+
+### What is this?
+
+This is a template project for electron, svelte, webpack, and typescript. Hot module reloading works out of the box
 
 ### Installation
 
+The quick way
 ``` bash
 git clone --depth=1 <repo-url> <directory>
 cd <directory>
-rm -rf .git
+rm -rf .git .images
+yarn install
+```
+
+For those with extra time
+``` bash
+git clone <repo-url> <directory>
+cd <directory>
+rm -rf .git .images
+npm install
 ```
