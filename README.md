@@ -17,12 +17,18 @@
 This is a template project for electron, svelte, webpack, and typescript. Hot module reloading works out of the box
 
 ### Installation
+The easy way
+``` bash
+mkdir <directory>
+cd <directory>
+curl https://raw.githubusercontent.com/ryan-way-boilerplate/electron-svelte-webpack-typescript/main/.scripts/install.sh | sh
+```
 
-The quick way
+The manual way
 ``` bash
 git clone --depth=1 <repo-url> <directory>
 cd <directory>
-rm -rf .git .images
+rm -rf .git .images .scripts
 yarn install
 ```
 
@@ -30,6 +36,6 @@ For those with extra time
 ``` bash
 git clone <repo-url> <directory>
 cd <directory>
-rm -rf .git .images
+rm -rf .git .images .scripts
 npm install
 ```
