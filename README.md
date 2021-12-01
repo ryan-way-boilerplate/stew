@@ -19,13 +19,3 @@ git clone --depth=1 <repo-url> <directory>
 cd <directory>
 rm -rf .git
 ```
-
-
-
-
-<style>
-img[alt="Electron"], img[alt="Svelte"], img[alt="Webpack"], img[alt="Typescript"] {
-  width: 100px;
-  height: 100px;
-}
-</style>
