@@ -14,5 +14,7 @@ This is a template project for electron, svelte, webpack, and typescript. Hot mo
 
 ### Installation
 ``` bash
-degit ryan-way-boilerplate/electron-svelte-webpack-typescript
+npx degit ryan-way-boilerplate/electron-svelte-webpack-typescript my-app
+cd my-app
+yarn install
 ```
