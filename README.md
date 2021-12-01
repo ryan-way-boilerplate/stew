@@ -5,10 +5,6 @@
 [![Webpack](.images/webpack.png)](https://https://webpack.js.org/)
 [![Typescript](.images/typescript.png)](https://https://www.typescriptlang.org/)
 
-<br/>
-<br/>
-<br/>
-
 ![NPM](https://img.shields.io/npm/l/@pixelmund/create-svelte-app?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ryan-way-boilerplate/electron-svelte-webpack-typescript?style=flat-square)
 
